@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+h1,
+h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 600;
+    line-height: 1.2;
+    padding-bottom: 10px;
+}
+
+h2 {
+    padding-top: 30px;
+}
+
+p {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 5px;
+}
+
+hr {
+    margin-top: 30px;
+
+}
+
+.topbar {
+    margin: 0 15% 0 15%;
+    font-weight: bold;
+    font-size: larger;
+    justify-content: right;
+    display: flex;
+
+}
+
+.iconx {
+    padding: 10px;
+}
+
+a:link,
+:visited {
+    color: rgb(105, 104, 104);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#facebook :hover {
+    color: #1d72f1;
+    transition: .3s;
+}
+#instagram :hover {
+    color: rgb(227, 16, 246);
+    transition: .3s;
+}
+#twitter :hover {
+    color: #5d95e9;
+    transition: .3s;
+}
+#github :hover {
+    color: black;
+    transition: .3s;
+}
+
+
+.profile-image {
+    height: 200px;
+    width: 200px;
+    border: solid white 10px;
+}
+
+.profile-details {
+    padding-left: 50px;
+    color: white;
+}
+
+#name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+.top {
+    margin: 0 15% 0 15%;
+    padding: 40px 100px;
+    border-radius: 10px;
+    background-color: #3a84f4;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.middle {
+    margin: 0 15% 40px 15%;
+    padding: 40px 100px;
+    border-radius: 10px;
+    background-color: rgb(245, 244, 244);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.edu  {
+    color: rgb(47, 47, 43);
+    background-color: #f39f9f;
+    margin:0 auto;
+    width: 600px;
+    height: 120px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+.edu tr td{
+    border: 2px solid black;
+    padding: 5px;
+   
+}
+
+
+.bottom {
+    text-align: center;
+}
+
+.bottom span {
+    font-weight: bold;
+    transition: .3s;
+}
