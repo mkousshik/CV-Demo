@@ -104,7 +104,8 @@ a:link,
 .edu  {
     color: rgb(47, 47, 43);
     background-color: #f39f9f;
-    margin:0 auto;
+    margin-left:auto;
+    margin-right:auto;
     width: 600px;
     height: 120px;
     border: 2px solid black;
